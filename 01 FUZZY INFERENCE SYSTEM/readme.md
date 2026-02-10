@@ -78,7 +78,6 @@ The inference process maintains complete transparency with every input value, ru
 FuzzyInferenceSystemFromGBT/
 │
 ├── data/                          # Dataset handling
-│   ├── download_instructions.md
 │   └── preprocessing.py
 │
 ├── models/                        # Baseline model training
@@ -240,7 +239,7 @@ This implementation uses the **Lending Club Loan Data** dataset containing loan 
 
 After preprocessing, the data is partitioned into training and independent test sets using stratified sampling to maintain class distribution. Selected features prioritize regulatory-compliant variables commonly used in credit risk assessment.
 
-**Data Availability**: Public dataset available at [Kaggle Lending Club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+**Data Availability**: Public dataset available at [Kaggle Lending Club]([https://www.kaggle.com/datasets/ethon0426/lending-club-20072020q1/data])
 
 ## Key Features
 
@@ -283,28 +282,15 @@ The approach particularly benefits scenarios where:
 
 **XAI Comparison and Expert Validation**: This work focuses on fuzzy inference systems without comparison against modern XAI alternatives (GAMs, xNAM, monotonic boosting) or validation with credit risk domain experts. Systematic XAI benchmarking and expert evaluation would strengthen interpretability claims and assess practical utility in real-world financial contexts.
 
-## Citation
-
-If you use this code in your research, please cite:
-```bibtex
-@inproceedings{loaiza2026interpretable,
-  title={Interpretable Credit Scoring through Optimized Fuzzy Inference Systems from Gradient Boosting Trees},
-  author={Loaiza, Byron and Ter{\'a}n, Luis and Loza-Aguirre, Edison},
-  booktitle={4th World Conference on Explainable Artificial Intelligence (XAI 2026)},
-  year={2026},
-  address={Fortaleza, Brazil}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
-**Byron Loaiza**  
+**Byron Jaramillo**  
 PhD Candidate, Human-IST Institute, University of Fribourg, Switzerland  
-Email: byron.loaiza@unifr.ch
+Email: byron.jaramillovinueza@unifr.ch
 
 **Luis Terán**  
 Human-IST Institute, University of Fribourg, Switzerland  
@@ -313,18 +299,18 @@ Email: luis.teran@unifr.ch
 **Edison Loza-Aguirre**  
 Departamento de Informática y Ciencias de la Computación  
 Escuela Politécnica Nacional, Quito, Ecuador  
-Email: edison.loza@epn.edu.ec
+Email: eloza@usfq.edu.ec
 
 ## Acknowledgments
 
-This research was conducted as part of Byron Loaiza's doctoral thesis at the University of Fribourg under the supervision of PD Dr. Luis Terán and co-supervision of Dr. Edison Loza-Aguirre.
+This research was conducted as part of Byron Jaramillo's doctoral thesis at the University of Fribourg under the supervision of PD Dr. Luis Terán and co-supervision of Dr. Edison Loza-Aguirre.
 
 ## Contact
 
 For questions, issues, or collaboration opportunities, please open an issue on GitHub or contact the authors directly.
 
 ---
-
 **Paper Submitted to**: 4th World Conference on eXplainable Artificial Intelligence (XAI 2026)  
 **Conference Date**: July 1-3, 2026 | Fortaleza, Brazil  
+
 **Code and Data Released**: Upon publication
